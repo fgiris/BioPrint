@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fizyoteknoterapi.muhendis.bioprint">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/roundedicon"
+        android:label="@string/app_name"
+        android:logo="@drawable/roundedicon"
+        android:roundIcon="@drawable/roundedicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2">
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.MainScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fizyoteknoterapi.muhendis.bioprint.UserInfoScreen" />
+        </activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.UserInfoScreen"
+            android:parentActivityName="com.fizyoteknoterapi.muhendis.bioprint.MainScreen"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fizyoteknoterapi.muhendis.bioprint.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.AppDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fizyoteknoterapi.muhendis.bioprint.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.Records"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fizyoteknoterapi.muhendis.bioprint.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.RecordsDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fizyoteknoterapi.muhendis.bioprint.Records" />
+        </activity>
+        <activity
+            android:name="com.fizyoteknoterapi.muhendis.bioprint.GonyometreActivity"
+            android:label="@string/title_activity_gonyometre"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fizyoteknoterapi.muhendis.bioprint.MainScreen" />
+        </activity>
+    </application>
+
+</manifest>

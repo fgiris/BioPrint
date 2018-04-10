@@ -1,0 +1,213 @@
+<resources>
+    <string name="userInfoName">Ad:</string>
+    <string name="userInfoSurname">Soyad:</string>
+    <string name="userInfoHeight">Boy(cm):</string>
+    <string name="userInfoAge">Yaş:</string>
+    <string name="userInfoWeight">Kilo(kg):</string>
+    <string name="userInfoBirthDay">Gün:</string>
+    <string name="userInfoBirthMonth">Ay:</string>
+    <string name="userInfoBirthYear">Yıl:</string>
+    <string name="userInfoGender">Cinsiyet:</string>
+    <string name="app_name">Fizyoprint</string>
+    <string name="action_settings">Settings</string>
+    <string name="boy_menu_title">Boy</string>
+    <string name="anterior_menu_title">Anterior</string>
+    <string name="posterior_menu_title">Posterior</string>
+    <string name="lateral_menu_title">Lateral</string>
+    <string name="sonuc_menu_title">Sonuç</string>
+    <string name="boy_text">Lütfen önce fotoğraf seçin sonra çizgileri sürükleyerek deneğin boyunu iki çizgi arasında kalacak şekilde ayarlayınız.</string>
+
+    <string name="about_text">
+  <![CDATA[
+<p>
+    Bu uygulama bireyin postürünün olması gerekenden sapmasını hesaplar ve bu
+    hesaplamalar üzerinden var olan durum hakkında yorum yapmanızı
+    kolaylaştırır.
+</p>
+<p>
+    Aşağıda yer alan adımları izleyerek sonuçlara ulaşabilirsiniz.
+</p>
+<p>
+    1. Uygulamaya giriş yapmadan önce bireyi fotoğraflamanız gerekmektedir. Bu
+    fotoğraflama daha objektif sonuçlar için standardize edilmiştir. Birey
+    üzerinde referans noktaları belirledikten sonra ayakta rahat olduğu
+    pozisyonda durmasını sağlayınız. Birey ve duvar arasında 20-30 cm kadar
+    mesafe olmalıdır. Çekimi yapacak kişi bireyden yaklaşık 2,5-3,5 m kadar
+    mesafede olmalıdır. Çekimi yaparken gövdeyi ortalayacak şekilde tam
+    karşıdan çekim yapınız. (Aşağıdan veya yukardan yaptığınız çekimler
+    sonuçlarınızı da etkileyecektir.) Hastanın gözüktüğünden emin olunuz.
+</p>
+<p>
+    2. Uygulamaya giriş yaptığınızda ilk olarak karşınıza gelen ekranda
+    Ad/Soyad/Yaş/Kilo/Boy gibi bilgileri doldurunuz ve ilerleyiniz(eksik giriş
+    yaptığınız uygulama uyarı verecektir).
+</p>
+<p>
+    3. Giriş yaptıktan sonra ekranın sağ alt kısmında görülen ‘Daire içindeki
+    artı işaretine ‘ tıklayarak yeni bir fotoğraf ekleyiniz. Her menü
+    birbirinden bağımsızdır. Yukardaki menüler arasında ilerleyerek
+    testlemeleri yapınız.
+</p>
+<p>
+    4. Fotoğrafı ekledikten sonra sol yanda görülen referans çizgileri referans
+    noktaları sürükleyerek eklediğiniz fotoğraftaki önceden belirlediğiniz
+    noktalarla eşleştiriniz.(Bunu yapabilmeniz için kişiyi pozisyonladıktan
+    sonra referans noktaları işaretlemiş ve sonrasında fotoğraflamış olmanız
+    gerekmektedir.)
+</p>
+<p>
+    Referans noktaların açıklamaları aşağıda yer almaktadır.
+</p>
+<p>
+    <strong>Anteriorda; </strong>
+</p>
+<p>
+    <b><font color=#0000FF>Koyu mavi çizgide olan</b>
+</p>
+<p>
+    <b><font color=#0000FF>A:</b> alındaki noktaya
+</p>
+<p>
+    <b><font color=#0000FF>Ç:</b> çenedeki nokta
+</p>
+<p>
+    <b><font color=#0000FF>S:</b> sternum üzerindeki nokta
+</p>
+<p>
+    <b><font color=#0000FF>U:</b> umlikus
+</p>
+<p>
+    <b><font color=#0000FF>P:</b> pelvisin anteriordaki çıkıntıları arasındaki orta noktaya karşılık
+    gelir.
+</p>
+<p>
+    <b><font color=#01DF01>Yeşil çizgide olan</b>
+</p>
+<p>
+    <b><font color=#01DF01>AC:</b> acromiumlara karşılık gelir.
+</p>
+<p>
+    <b><font color=#FE2E9A>Pembe çizgide olan</b>
+</p>
+<p>
+    <b><font color=#FE2E9A>P:</b> pelvisin iki tarafındaki çıkıntıya karşılık gelir.
+</p>
+<p>
+    <b><font color=#FF0000>Kırmızı çizgide olan</b>
+</p>
+<p>
+    <b><font color=#FF0000>AP:</b> ayak parmağındaki noktaya
+</p>
+<p>
+    <b><font color=#FF0000>AB:</b> ayak bileğindeki noktaya
+</p>
+<p>
+    <b><font color=#FF0000>D:</b> dizdeki noktaya karşılık gelir. Sağ ve sol bağlantılıdır.
+</p>
+<p>
+    <strong>Posteriorda;</strong>
+</p>
+<p>
+    <b><font color=#0000FF>Koyu mavi çizgide olan</b>
+</p>
+<p>
+    <b><font color=#0000FF>C7:</b> 7.servikal vertebranın spinöz çıkıntısı üzerindeki noktaya
+</p>
+<p>
+    <b><font color=#0000FF>T5:</b> 5.thorakal vertebranın spinöz çıkıntısı üzerindeki noktaya
+</p>
+<p>
+    <b><font color=#0000FF>P:</b> Pelvis iki tarafı arasındaki noktaya karşılık gelir.
+</p>
+<p>
+    <b><font color=#01DF01>Yeşil çizgide olan</b>
+</p>
+<p>
+    <b><font color=#01DF01>AC:</b> omuz posteriorunda acromiumlara simetrik olacak noktalardır.
+</p>
+<p>
+    <b><font color=#FE2E9A>Pembe çizgide olan</b>
+</p>
+<p>
+    <b><font color=#FE2E9A>P:</b> posteriorundaki noktalara karşılık gelir.
+</p>
+<p>
+    <b><font color=#FF0000>Kırmızı çizgide olan</b>
+</p>
+<p>
+    <b><font color=#FF0000>D:</b> dizlerin posteriordaki noktalarına karşılık gelir.
+</p>
+<p>
+    <b><font color=#FFFF00>Sarı</b> ve <b><font color=#81DAF5>açık mavi</b> olan
+</p>
+<p>
+    <b><font color=#81DAF5>AB:</b> ayak bileğindeki noktaya
+</p>
+<p>
+    <b><font color=#FFFF00>AT:</b> ayak topuk kısmındaki noktaya karşılık gelir.
+</p>
+<p>
+    <strong>Lateralde;</strong>
+</p>
+<p>
+    <b><font color=#0000FF>Koyu mavi çizgide olan</b>
+</p>
+<p>
+    <b><font color=#0000FF>M:</b> mastoid çıkıntı üzerindeki noktaya
+</p>
+<p>
+    <b><font color=#0000FF>AC:</b> acromium üzerindeki noktaya
+</p>
+<p>
+    <b><font color=#0000FF>P:</b> ön arka pelvis arasındaki orta noktaya
+</p>
+<p>
+    <b><font color=#0000FF>D:</b> dizdeki noktaya
+</p>
+<p>
+    <b><font color=#0000FF>AT:</b> ayak topuğu önündeki noktaya karşılık gelir.
+</p>
+<p>
+    <b><font color=#01DF01>Yeşil çizgide olan</b>
+</p>
+<p>
+    <b><font color=#01DF01>P:</b> pelvis ön- arka noktalarına karşılık gelir.
+</p>
+<p>
+    5. <strong>3</strong>.adımı anterior , posterior ve lateral yönler için
+    ayrı ayrı gerçekleştirmiş olmanız gerekmektedir.
+</p>
+<p>
+    6. Eşleştirmeleri doğru yaptığınızdan emin olunuz .
+</p>
+<p>
+    7. Sonuç bölümüne ilerleyerek hesaplanan verileri görebilirsiniz. Sonuçlar
+    düşey ve yatay eksen ile yapılan açı ve mesafe şeklinde karşınıza
+    çıkacaktır.
+</p>
+<p>
+    <strong>
+        Normal değerler ‘0’ (sıfır) a karşılık gelir. Sadece lateral analizde;
+        pelvisin düşey (horizontal) eksenle yaptığı açılaşmanın normal değeri
+        10° e kadardır. 15° üzerindeki açılar anterior pelvik açıları, ters
+        yöndeki 5° ve altı açılar posterior pelvik açılardır.
+    </strong>
+</p>
+<p>
+    Testi tamamladıktan sonra veriler otomatik olarak kaydedilmektedir. Analize
+    başlayıp sonuç bölümüne gitmeyip uygulamadan çıkarsanız test yarım kalacak
+    ve daha sonra kayıtlar bölümünden testi devam ettirebileceksiniz. Aynı
+    şekilde yine kayıtlar ölümünden hem veri sonuçlarına ulaşabilir hem de
+    kaydı silebilirsiniz.
+</p>
+<p>
+    <strong>
+        ( Sayın kullanıcı alan uzmanı veya öğrencisi değilseniz lütfen bir
+        uzmana danışınız .)
+    </strong>
+</p> ]]>
+</string>
+    <string name="title_activity_gonyometre">Gonyometre</string>
+
+
+</resources>

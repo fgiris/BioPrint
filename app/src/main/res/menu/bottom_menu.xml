@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/denek_boy"
+        android:enabled="true"
+        android:icon="@drawable/boy"
+        android:title="@string/boy_menu_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/denek_anterior"
+        android:enabled="true"
+        android:icon="@drawable/anterior"
+        android:title="@string/anterior_menu_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/denek_posterior"
+        android:enabled="true"
+        android:icon="@drawable/posterior"
+        android:title="@string/posterior_menu_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/denek_lateral"
+        android:enabled="true"
+        android:icon="@drawable/lateral"
+        android:title="@string/lateral_menu_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/denek_sonuc"
+        android:enabled="true"
+        android:icon="@drawable/sonuc"
+        android:title="@string/sonuc_menu_title"
+        app:showAsAction="ifRoom" />
+
+</menu>

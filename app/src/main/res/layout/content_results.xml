@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="invisible" android:id="@+id/results_scroll_view"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="70dp">
+
+        <!--<TextView
+        android:text="Hastanın gerçek boyunu girdikten sonra doğru sonuçlar aşağıda görünecektir."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="70dp"
+        android:textSize="8sp"/>
+
+    <EditText
+        android:id="@+id/boy_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Boyu giriniz(Örnek: 177cm)"
+        android:inputType="number"
+        android:fontFamily="monospace"/>-->
+
+        <TextView
+            android:id="@+id/latSonucHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Lateral Sonuçlar"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lateral_sonuclar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/antSonucHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Anterior Sonuçlar"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/anterior_sonuclar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp" />
+
+        <TextView
+
+            android:id="@+id/PostSonucHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Posterior Sonuçlar"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/posterior_sonuclar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>
